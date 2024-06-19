@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 650px;
+    background-color: rgb(32, 32, 32);
+}
+
+h1{
+    text-align: center;
+    color: rgb(148, 168, 145);
+}
+
+.sec-img{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.img-inicio{
+    width: 180px;
+    height: 230px;
+    background-color: purple;
+    border-radius: 30px;
+    background-size: cover;
+    filter: grayscale(70%);
+}
+
+#thiago{
+    background-image: url(imagens/Thiago\ Fritz.jpg);
+}
+
+#thiago:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#liz{
+    background-image: url(imagens/Elizabeth\ Webber.webp);
+}
+#liz:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#cesar{
+    background-image: url(imagens/Cesar\ Cohen.jpg);
+}
+#cesar:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#chris{
+    background-image: url(imagens/Chrisopher\ Cohen.jpg);
+}
+#chris:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#joui{
+    background-image: url(imagens/Joui\ Jouki.jpg);
+}
+#joui:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#arthur{
+    background-image: url(imagens/Arthur\ Cervero.webp);
+    background-size: cover;
+}
+#arthur:hover{
+    width: 200px;
+    height: 250px;
+    filter: grayscale(0%); 
+    transition: 0.5s;  
+}
+
+#main-menu{
+    background-color: rgb(230, 229, 229);
+    height: 600px;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.social{
+    display: inline-block;
+    gap: 10px;
+}
+
+.img-social{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.img-social:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.2s;
+}
+
+#instagram{
+    background-image: url(imagens/instagram_logo_icon_181283.webp);
+    background-size: cover;
+}
+
+#github{
+    background-image: url(imagens/download.png);
+    background-size: cover;
+}
+
+#logo{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 5px;  
+}
+
+p{
+    text-align: center;
+}
